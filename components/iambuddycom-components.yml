@@ -1,0 +1,21 @@
+generated: '2026-07-19'
+method: searched
+source: https://buddy.insure/buddy-blog/why-insurance-uis-are-hard-and-how-we-fixed-it
+components:
+  - family: Offer Element
+    kind: embeddable-checkout
+    description: >-
+      Buddy's Offer Element is an embeddable insurance commerce widget that adds
+      quote, apply, bind, and pay to any site or app in a few lines of code
+      ("8 lines of code"), bridging the API-to-UI gap so partners render a full
+      insurance checkout under their own branding without building the UI.
+    surfaces: [quote, apply, bind, pay]
+    channels: [direct, agent-assisted, embedded, agentic]
+    loader: null    # loader script / snippet URL not published on public pages
+    docs: null      # integration docs are behind the customer portal / service desk
+notes: >-
+  Offer Element is documented on the Buddy site and blog as a client-side
+  embeddable component distinct from any server SDK. The exact loader snippet and
+  integration reference live behind my.buddy.insure / the Atlassian service desk
+  and were not publicly retrievable; captured here as a component family without
+  fabricating a URL.

@@ -1,0 +1,29 @@
+# Buddy (iambuddy.com / buddy.insure)
+
+> Buddy is a digital insurance commerce platform that turns insurance product rules, pricing, and workflows into structured data via its Insurance Object Notation (ION) engine, so carriers, MGAs, brokers, and agents can sell P&C insurance online across direct, agent-assisted, embedded, and agentic channels. Its Offer Element embeddable checkout adds quote/apply/bind/pay in a few lines of code, and Buddy MCP connects insurance products to AI assistants for conversational selling. SOC 2 Type 2 and PCI DSS compliant; licensed in all 50 states.
+
+## Products
+- [Solutions](https://buddy.insure/solutions): Carriers, MGAs, and Brokers & Agents solutions built on the ION engine.
+- [Offer Element](https://buddy.insure/buddy-blog/why-insurance-uis-are-hard-and-how-we-fixed-it): Embeddable insurance checkout widget (quote, apply, bind, pay).
+- [Buddy MCP](https://buddy.insure/buddy-blog/introduction-buddy-mcp): Model Context Protocol server exposing query, quote, bind, and pay over indexed insurance products (early access).
+
+## Access & Support
+- [Customer Portal](https://my.buddy.insure): Login / customer portal.
+- [Service Desk](https://buddyinsure.atlassian.net/servicedesk/customer/portals): Support and integration requests.
+- [Contact](https://buddy.insure/contact): Request early access / demo. Phone 833.462.8339.
+
+## Company
+- [About](https://buddy.insure/about): Founded by Charles Merritt and David Vogeleer, Richmond, Virginia.
+- [Licenses](https://buddy.insure/licenses): Licensed insurance producer in all 50 states.
+- [Blog](https://buddy.insure/buddy-blog): Product and company updates.
+- [LinkedIn](https://www.linkedin.com/company/buddyinsurance)
+
+## Legal
+- [Terms of Use](https://buddy.insure/terms)
+- [Privacy Policy](https://buddy.insure/privacy)
+
+## API Evangelist artifacts
+- [MCP profile](https://raw.githubusercontent.com/api-evangelist/iambuddycom/refs/heads/main/mcp/iambuddycom-mcp.yml)
+- [Conformance / compliance](https://raw.githubusercontent.com/api-evangelist/iambuddycom/refs/heads/main/conformance/iambuddycom-conformance.yml)
+- [Embedded components](https://raw.githubusercontent.com/api-evangelist/iambuddycom/refs/heads/main/components/iambuddycom-components.yml)
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/iambuddycom/refs/heads/main/security/iambuddycom-domain-security.yml)

@@ -1,19 +1,48 @@
 aid: iambuddycom
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/iambuddycom.png
 name: iambuddy.com
-description: iambuddy.com is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Buddy (iambuddy.com, now buddy.insure) is a digital insurance commerce
+  platform that turns insurance product rules, pricing, and workflows into
+  structured data via its Insurance Object Notation (ION) engine, so carriers,
+  MGAs, brokers, and agents can sell P&C insurance online across direct,
+  agent-assisted, embedded, and agentic channels without core-system changes.
+  Its Offer Element embeddable checkout widget adds quote, apply, bind, and pay
+  in a few lines of code, and Buddy MCP connects insurance products to AI
+  assistants such as Claude for conversational selling. Founded by Charles
+  Merritt and David Vogeleer in Richmond, Virginia, Buddy is licensed in all 50
+  states and is SOC 2 Type 2 and PCI DSS compliant, working with carriers
+  including Allstate, Aon, W.R. Berkley, Chubb, Great American, and Starr.
 url: https://raw.githubusercontent.com/api-evangelist/iambuddycom/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - techstars
-x-tier: stub
+x-tier: enriched
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Insurance
+- InsurTech
+- Embedded Insurance
+- Insurance Commerce
+- P&C Insurance
+- MCP
+- Payments
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +50,41 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/iambuddycom-domain-security.yml
 - type: Website
-  url: https://iambuddy.com/
+  url: https://buddy.insure/
+- type: DeveloperPortal
+  url: https://my.buddy.insure
+- type: Login
+  url: https://my.buddy.insure
+- type: Support
+  url: https://buddyinsure.atlassian.net/servicedesk/customer/portals
+- type: Blog
+  url: https://buddy.insure/buddy-blog
+- type: TermsOfService
+  url: https://buddy.insure/terms
+- type: PrivacyPolicy
+  url: https://buddy.insure/privacy
+- type: About
+  url: https://buddy.insure/about
+- type: Licenses
+  url: https://buddy.insure/licenses
+- type: LinkedIn
+  url: https://www.linkedin.com/company/buddyinsurance
+- type: MCPServer
+  url: mcp/iambuddycom-mcp.yml
+  name: Buddy MCP
+- type: Conformance
+  url: conformance/iambuddycom-conformance.yml
+- type: Compliance
+  url: conformance/iambuddycom-conformance.yml
+- type: Components
+  url: components/iambuddycom-components.yml
+- type: LLMsTxt
+  url: llms/iambuddycom-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -1,0 +1,17 @@
+generated: '2026-07-19'
+method: searched
+source: https://buddy.insure/about
+standards:
+  - id: soc2-type2
+    conforms: true
+    evidence: "buddy.insure publishes SOC 2 Type 2 as a security certification"
+  - id: pci-dss
+    conforms: true
+    evidence: "buddy.insure states it is PCI DSS compliant (payment processing)"
+  - id: mcp
+    conforms: true
+    evidence: "Buddy MCP is built on the Model Context Protocol (introduction-buddy-mcp)"
+notes: >-
+  Compliance posture (SOC 2 Type 2, PCI DSS) is stated on the Buddy site; no
+  independent audit report was retrieved. Buddy is a licensed insurance producer
+  in all 50 states (see https://buddy.insure/licenses).
