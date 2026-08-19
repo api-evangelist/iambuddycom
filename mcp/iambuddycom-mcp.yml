@@ -6,25 +6,28 @@ status_raw: early-access
 server:
   name: Buddy MCP
   vendor: Buddy (buddy.insure)
-  transport: unknown         # remote MCP; connection details provided on request
-  url: null                  # not published — early access, request via contact form
-  description: >-
-    Buddy MCP is built on the Model Context Protocol and gives any
-    MCP-compatible AI assistant (e.g. Claude) access to indexed insurance
-    products. The AI handles the conversation; Buddy's ION Engine handles the
-    insurance logic (rating, eligibility, quote-to-bind-to-pay, issuance).
+  transport: unknown
+  url: null
+  description: Buddy MCP is built on the Model Context Protocol and gives any MCP-compatible AI assistant
+    (e.g. Claude) access to indexed insurance products. The AI handles the conversation; Buddy's ION Engine
+    handles the insurance logic (rating, eligibility, quote-to-bind-to-pay, issuance).
 tools:
-  - name: product_knowledge
-    description: Query an indexed insurance product and return answers grounded in the underlying policy document.
-  - name: quote
-    description: Generate a real-time quote with rating and eligibility executed by the ION Engine.
-  - name: bind
-    description: Bind a policy through deterministic quote-to-bind flows.
-  - name: pay
-    description: Process payment and issue the policy (compliance disclosures enforced, not generated).
-notes: >-
-  Capabilities transcribed from the "Introducing Buddy MCP" announcement
-  (2026-04-20). No server URL, transport, or authentication is published; access
-  is early-access for carriers, MGAs, and distribution partners via the contact
-  form. Tool names are descriptive labels for the documented capabilities, not
+- name: product_knowledge
+  description: Query an indexed insurance product and return answers grounded in the underlying policy
+    document.
+- name: quote
+  description: Generate a real-time quote with rating and eligibility executed by the ION Engine.
+- name: bind
+  description: Bind a policy through deterministic quote-to-bind flows.
+- name: pay
+  description: Process payment and issue the policy (compliance disclosures enforced, not generated).
+notes: Capabilities transcribed from the "Introducing Buddy MCP" announcement (2026-04-20). No server
+  URL, transport, or authentication is published; access is early-access for carriers, MGAs, and distribution
+  partners via the contact form. Tool names are descriptive labels for the documented capabilities, not
   verbatim MCP tool identifiers (the manifest is not public).
+deployment:
+  mode: unclear
+  verified: searched
+  tools: 4
+  checked: '2026-08-12'
+  source: catalog MCP census
